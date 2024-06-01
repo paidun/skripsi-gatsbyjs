@@ -1,0 +1,37 @@
+{
+  "name": "gatsby_skripsi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby_skripsi",
+  "author": "zidaann",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@fontsource/work-sans": "^5.0.16",
+    "autoprefixer": "^10.4.17",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fastify": "^4.27.0",
+    "gatsby": "^5.13.2",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-nodejs": "^0.7.0",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-react-helmet": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
