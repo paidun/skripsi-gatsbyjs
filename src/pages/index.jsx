@@ -33,17 +33,17 @@ export default function IndexPage() {
           <div className="grid grid-cols-2 gap-5">
             {
               menu.map((item, i) => (
-                <Link to={item.path} key={i}>
+                <a href={item.path} key={i} >
                   <div className="py-20 bg-slate-200 border border-slate-50 rounded-lg flex justify-center items-center">
                     <h1 className="font-bold text-black">{item.name}</h1>
                   </div>
-                </Link>
+                </a>
               ))
             }
           </div>
         </section>
-      </div>
-    </Layout>
+      </div >
+    </Layout >
   )
 }
 
